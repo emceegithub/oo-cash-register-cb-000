@@ -32,8 +32,9 @@ class CashRegister
   
   def void_last_transaction
     @last_transaction_quantity.times {
-      
+      @items.pop
     }
+    @total -= (@last_transaction_price * @last_transaction_quantity)
   end
   
   
