@@ -1,5 +1,7 @@
 class CashRegister
   
+  attr_accessor :name
+  
   def initialize
     #@name = name
     @total = 0
