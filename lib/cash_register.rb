@@ -5,4 +5,8 @@ class CashRegister
     @total = 0
   end
   
+  def total
+    return @total
+  end
+  
 end
